@@ -11,8 +11,20 @@ The user has access to a dashboard where they can choose whether they can view, 
 
 ## Running Instructions
 
-Run this command into your terminal (make sure you are in the correct directory: 
+Run this command into your terminal (make sure you are in the correct directory): 
 > Travel_Bucket_List_Solo_Project
 
 `flask run`
 
+## Technologies I have used 
+
+- HTML / CSS
+- Python
+- Flask
+- PostgreSQL and the psycopg
+
+## How it started as a plan and how it turned out 
+
+Below is a screenshot of the planning that went into this website (note that some of the things from the initial plan have changed):
+
+![updated_solo_project](https://github.com/AlexandraViasu/Travel-Bucket-List---Solo-Project/assets/130513545/cc407a60-b700-4d39-8587-367d6d60a9ed)
