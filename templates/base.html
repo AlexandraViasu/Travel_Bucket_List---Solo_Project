@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Travel Bucket List</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caprasimo&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Caprasimo', cursive;
+    }
+  </style>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/boxes.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/buttons.css') }}">
+  <nav>
+    <ul class="menu">
+      <li><a href="/">Homepage</a></li>
+      <li><a href="/travelbucketlist">Travel Bucket List</a></li>
+    </ul>
+  </nav>
+</head>
+
+
+<body>
+  <main class="base">
+  <section id="content">
+      {% block content %}
+
+      {% endblock%}
+  </section>
+  </main>
+</body>
+
+
+<footer>
+  <nav>
+    <ul class="footer">
+      <li>Alex's Travel App®</li>
+      <li><a href="https://emoji.gg/emoji/1397_party-wizardparrot"><img src="https://cdn3.emoji.gg/emojis/1397_party-wizardparrot.gif" width="32px" height="32px" alt="party-wizardParrot"></a></a></li>
+    </ul>
+  </nav>
+</footer>
+</html>

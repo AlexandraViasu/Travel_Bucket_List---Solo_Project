@@ -1,0 +1,42 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<div class="citiesvisited">
+<h1>Cities Visited</h1>
+{% for city in cities %}
+
+<h2>{{ city.name }}</h2>
+  <form method = "post" action="/travelbucketlist/visited/cities/delete/{{city.id}}">
+  <input type="submit" value = "Delete" class="buttons">
+  </form>
+  __________________________________
+{% endfor %}
+</div>
+
+
+<div class="createcities">   
+<form action = "/travelbucketlist/visited/cities" method = "post">
+  
+  <label for="name">
+      <h2>Add a new city that you have visited:</h2>
+  </label>
+  <input type="text" name="name" id="name">
+  
+  <label for="country"></label>
+      <h2>To which country does this city belong to:</h2>
+      <select id="country" name="country">
+          {% for country in countries %}
+          <option value="{{ country.id }}">
+          {{ country.name }}
+          </option>
+          {% endfor %}
+      </select>
+
+  
+
+<input type="submit" value = "Add New City" class="buttons">
+</form>
+</div>
+
+{% endblock %}

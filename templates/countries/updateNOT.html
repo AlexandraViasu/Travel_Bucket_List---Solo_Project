@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+{% block content %}
+<h1>Update Country that you want to visit</h1>
+</div>
+<div class="updatecountry">   
+<form action = "/travelbucketlist/notvisited/{{country.id}}" method = "post">
+  
+  <label for="name">
+      <h3>Update country name:</h3>
+  </label>
+  <input type="text" name="name" id="name">
+
+  <label for="rating">
+      <h3>Update Trip Advisor rating:</h3>
+  </label>
+  <textarea name="rating" id="rating" cols="30" rows="1"></textarea>
+  
+
+  <input type="submit" value = "Update Country" class="buttons">
+
+</form>
+</div>
+
+{% endblock %}

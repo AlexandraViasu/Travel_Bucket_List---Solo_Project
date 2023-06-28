@@ -1,0 +1,34 @@
+{% extends 'base.html'%}
+
+{% block content %}
+<div class="checkpoint">
+
+<span class="visitedcheckbox">
+<h1>Where you've travelled already...</h1>
+<p>
+    Most people (myself included) will take pictures when they're abroad, and then post them onto social media. This is one way of documenting your travels, but there's so many other cool ways to do it!
+    One of them is this website! Let's check it out!
+</p>
+    <a href="https://www.travellingtabby.com/document-your-travels/" target=”_blank”>Source</a>
+    <hr>
+    <form method = "get" action="/travelbucketlist/visited">
+    <input type="submit" value = "Remind me of all the good memories!" class="buttons">
+    </form>
+</span>
+
+<span class="notvisitedcheckbox">
+<h1>Where are you headed to next...</h1>
+<p>
+    In any given year, the exercise of assembling a definitive list of the best places to visit is both exciting and daunting. After all, we're never short on inspiring places and experiences we hope to cross off. 
+    This editable list of destinations helps me keep track of it all!
+</p>
+    <a href="https://www.cntraveller.com/article/best-places-to-visit" target=”_blank”>Source</a>
+    <hr>
+    <form method = "get" action="/travelbucketlist/notvisited">
+    <input type="submit" value = "I wonder whether I should go to Bali or Japan..." class="buttons">
+    </form>
+
+</span>
+
+</div>
+{% endblock %}

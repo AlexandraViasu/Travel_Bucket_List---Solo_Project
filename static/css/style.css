@@ -1,0 +1,111 @@
+.menu{
+  display: flex;
+  padding: 10px;
+  background-color: #00bbf9;
+  color: white;
+  font-size: 18px;
+}
+
+.menu li a{
+  color: #fee440;
+}
+
+.menu li a:visited{
+  color: #ff9770;
+}
+
+.menu li{
+  padding-right: 10px;
+  list-style: none;
+  color: white;
+}
+
+
+p {
+  font-size: 1rem;
+}
+
+h1 {
+  color: #9b5de5;
+  font-size: 3rem;
+}
+
+h2 {
+  color: #f15bb5;
+  font-size: 2rem;
+}
+
+.footer{
+  display: flex;
+  align-items: center; 
+  justify-content: center;
+  padding: 10px;
+  background-color: #00bbf9;
+  color: #fee440;
+  font-size: 18px;
+}
+
+.footer li{
+  padding-right: 10px;
+  list-style: none;
+  color: #fee440;
+}
+
+.checkpoint {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+}
+
+.checkpoint span {
+  width: 50%;
+  height: 50%;
+}
+
+a:link {
+   color: #9b5de5; 
+   padding: 1rem;
+   margin: 1rem;
+}
+
+a:visited { 
+  color: #00bbf9;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+a:hover { 
+  color: #f15bb5;
+  padding: 1rem;
+  margin: 1rem;
+}
+a:active { 
+  color: #00bbf9;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.homepageitems {
+
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  justify-content: center;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+body {
+
+  background-color: #ffffff;
+  opacity: 0.8;
+  background-image:  radial-gradient(#444cf7 0.5px, transparent 0.5px), radial-gradient(#444cf7 0.5px, #ffffff 0.5px);
+  background-size: 20px 20px;
+  background-position: 0 0,10px 10px;
+}
+
+img {
+
+  width: 50%;
+}

@@ -1,0 +1,22 @@
+{% extends 'base.html'%}
+
+{% block content %}
+<div class="homepageitems">
+<h1>Welcome Traveller!</h1>
+<h2> Find your next travel destination!</h2>
+    <form method = "get" action="/travelbucketlist">
+    <input type="submit" value = "Let's go!" class="buttons">
+    </form>
+    <img src="static/images/japan.png" alt="japanimage">
+    <body>
+        <main class="homepagebox">
+        <p>It is not natural for us to be this sedentary. Travel is in our genes. </p>
+        <p>For most of the time our species has existed, “we've lived as nomadic hunter-gatherers moving about in small bands of 150 or fewer people,” writes Christopher Ryan in Civilized to Death. </p>
+        <p>Travel is not a rational activity. It makes no sense to squeeze yourself into an alleged seat only to be hurled at frightening speed to a distant place where you don't speak the language or know the customs. </p>
+        <p>All at great expense. If we stopped to do the cost-benefit analysis, we'd never go anywhere. Yet we do.</p>
+        <p>So go ahead and plan that trip. It's good for you, scientists say. Plotting a trip is nearly as enjoyable as actually taking one. Merely thinking about a pleasurable experience is itself pleasurable. Anticipation is its own reward.</p>
+        <p><a href="https://www.nationalgeographic.com/travel/article/why-travel-should-be-considered-an-essential-human-activity" target=”_blank”>Source</a></p>
+        </main>
+    </body>
+</div>
+{% endblock %}

@@ -1,0 +1,47 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<div class="countriesvisited">
+<h1>Countries Visited</h1>
+
+{% for country in countries %}  
+    <p>  Name: {{country.name}} </p>
+    <p> Trip Advisor Rating: {{country.rating}}</p>
+        Visited city: {{ cities[country.id] }} 
+
+    <a href="/travelbucketlist/visited/cities">View</a>
+    
+    <form method = "post" action="/travelbucketlist/visited/delete/{{country.id}}">
+    <input type="submit" value = "Delete" class="buttons">
+    </form>
+
+    <a href="/travelbucketlist/visited/{{country.id}}/edit">Edit</a>
+    __________________________________ 
+{% endfor %}
+</div>
+
+<div class="createcountry">   
+  <form action = "/travelbucketlist/visited" method = "post">
+     
+
+    <label for="name">
+        <h2>Add a new country that you have visited</h2>
+        <h3>Name of Country:</h3>
+    </label>
+    <input type="text" name="name" id="name">
+
+
+    <label for="rating">
+        <h3>Trip Advisor rating:</h3>
+    </label>
+    <textarea name="rating" id="rating" cols="30" rows="1"></textarea>
+    
+    <input type="submit" value = "Add New Country" class="buttons">
+
+
+  </form>
+</div>
+
+
+{% endblock %}
