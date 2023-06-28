@@ -23,6 +23,8 @@ Run this command into your terminal (make sure you are in the correct directory)
 - Flask
 - PostgreSQL and the psycopg
 
+Colour pallete is called Amethyst and you can find it here: [https://coolors.co/palettes/popular/neon](https://coolors.co/9b5de5-f15bb5-fee440-00bbf9-00f5d4)
+
 ## How it started as a plan and how it turned out 
 
 Below is a screenshot of the planning that went into this website (note that some of the things from the initial plan have changed):
