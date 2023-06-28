@@ -6,7 +6,8 @@ The user accessing the web app should be able to feel welcomed when it first ope
 
 The user has access to a dashboard where they can choose whether they can view, add, edit or delete the destinations which they have already visited or which they are yet to visit. 
 
-![Screenshot of the dashboard where users can choose what they want to view / update.]([https://prnt.sc/qHAU-wMUCl7o](https://prnt.sc/qHAU-wMUCl7o))
+<img width="1134" alt="Screenshot 2023-06-28 at 12 30 21" src="https://github.com/AlexandraViasu/Travel-Bucket-List---Solo-Project/assets/130513545/4fcdf012-683f-416f-bef9-de59501e0782">
+
 
 ## Running Instructions
 
